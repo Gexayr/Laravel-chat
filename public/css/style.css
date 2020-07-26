@@ -1,4 +1,16 @@
 .list-group{
     overflow-y: auto;
+    overflow-x: hidden;
     height: 230px;
+}
+
+.list-group-item{
+    word-wrap: break-word;
+}
+
+.time{
+    font-size: 9px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
 }
